@@ -22,7 +22,8 @@
     "react-dom": "^16.13.1",
     "react-offcanvas": "^0.4.0",
     "react-scripts": "3.4.1",
-    "react-sidebar": "^3.0.2"
+    "react-sidebar": "^3.0.2",
+    "webpack": "^4.43.0"
   },
   "scripts": {
     "start": "react-scripts start",
