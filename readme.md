@@ -207,6 +207,12 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons'
 <FontAwesomeIcon className="fa" icon={faSearch} /> 
 ```
 
+## Font Mfizz
+
+Cuando font awesome no tiene los logos que se buscan se puede utilizar esta libreria que tambien soporta graficos 
+
+aca se encuentra el de aws mongo hadoop, son mas especificos a tecnologia
+
 ## Componentes
 
 ## Definir componentes  
