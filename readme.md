@@ -377,18 +377,18 @@ para obtener la configuracion de la peticion que se quiere enviar utilizando pos
 
 ## paginacion
 
-ejemplo de la paginacion en (digitalocean)[https://www.digitalocean.com/community/tutorials/how-to-build-custom-pagination-with-react]
+ejemplo de la paginacion en [digitalocean](https://www.digitalocean.com/community/tutorials/how-to-build-custom-pagination-with-react)
 
 ## sidebar menu
 
-ejemplo de (side bar menu en bootsrtrap)[https://bootsnipp.com/snippets/Q0dAX] de este ejemplo saque la idea del **toggle menu**
+ejemplo de [side bar menu en bootsrtrap](https://bootsnipp.com/snippets/Q0dAX) de este ejemplo saque la idea del **toggle menu**
 
 el side bar maneja estados para ver cual fue el menu abierto y cual fue el item seleccionado 
 
-el efecto de aparecer y desaparecer lo tome de (aqui)[https://github.com/vutran/react-offcanvas]
+el efecto de aparecer y desaparecer lo tome de [aqui](https://github.com/vutran/react-offcanvas)
 
 ## modal 
-segui el ejemplo de esta (pagina)[https://www.digitalocean.com/community/tutorials/react-modal-component]
+segui el ejemplo de esta [pagina](https://www.digitalocean.com/community/tutorials/react-modal-component)
 
 el componente modal tiene un bug en bootstrap cuando se instala por npm, para abolirlo nombrar la clase de otra forma y adicionar los estilos por separado
 
@@ -443,41 +443,3 @@ https://jsfiddle.net/bootstrapious/7fyne8jp
 
 
                 /*
-*
-* ==========================================
-* CUSTOM UTIL CLASSES
-* ==========================================
-*
-*/
-.blockquote-custom {
-  position: relative;
-  font-size: 1.1rem;
-}
-
-.blockquote-custom-icon {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: -25px;
-  left: 50px;
-}
-
-
-
-/*
-*
-* ==========================================
-* FOR DEMO PURPOSES
-* ==========================================
-*
-*/
-body {
-  background: #eff0eb;
-  background-image: url('https://i.postimg.cc/MTbfnkj6/bg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
