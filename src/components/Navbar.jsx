@@ -10,24 +10,29 @@ export default function Navbar({ onLogoutTry, onSetSidebarOpen, quote}){
 		<>
 		<nav className="navbar navbar-light justify-content-between">
 		<div className="row">
-			<div className="col-5 mr-2">
-		  <a className="navbar-brand " href="#" onClick= { onSetSidebarOpen }>
-		    <img src={ logo } width="60" height="60" className="d-inline-block align-top" alt="Shared Books" />
-		    <label className="mb-0 h1 px-3"> Shared Books </label>
-		  </a>
-		  </div>
-		  <div className="col-5 ml-2">
-		{ quote != undefined && <blockquote className="blockquote">
-			  <p className="mb-0">{ quote.quote }</p>
-			  <footer className="blockquote-footer"> { quote.author } {/* <cite title="Source Title"> { quote.authorAditionalInfo } </cite> */} </footer>
-			</blockquote>
-		}
-		</div>
-		<div className="col-1 ml-1 text-aligment-justify">
-		  <a className="navbar-brand " href="#" onClick= { onLogoutTry }>
-		    <img src={ logout } width="60" height="60" className="d-inline-block align-top" alt="Exit" />
-		  </a>
-		  </div>
+			
+			  <a className="navbar-brand " href="#" onClick= { onSetSidebarOpen }>
+			    <img src={ logo } width="60" height="60" className="d-inline-block align-top" alt="Shared Books" />
+			    <label className="mb-0 h1 px-3"> Shared Books </label>
+			  </a>
+			
+			{/* 
+			  <div className="col-5 ml-2">
+			
+			{ quote != undefined && <blockquote className="blockquote">
+				  <p className="mb-0">{ quote.quote }</p>
+				  <footer className="blockquote-footer"> 
+				{ quote.author } 
+				  </footer>
+				</blockquote>
+			}			
+			</div>
+			*/}
+			
+			  <a className="navbar-brand " href="#" onClick= { onLogoutTry }>
+			    <img src={ logout } width="60" height="60" className="d-inline-block align-top" alt="Exit" />
+			  </a>
+			
 		</div>
 		</nav>
 		</>

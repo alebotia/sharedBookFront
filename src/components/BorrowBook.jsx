@@ -161,9 +161,7 @@ class BorrowBook extends Component{
     return (
           <>
           <div className="row d-flex flex-row py-1">
-
-            <div className="w-100 px-4 d-flex flex-row flex-wrap align-items-center justify-content-between">
-            
+            <div className="w-100 px-4 d-flex flex-row flex-wrap align-items-center justify-content-between">            
               <div className="d-flex flex-row align-items-center">
                   <h2 className={headerClass}>
                     <strong className="text-secondary">{totalItems}</strong> Libros

@@ -44,8 +44,8 @@ class Home extends Component  {
   constructor(props){
     super(props)
     
-    // this.state = { isMenuOpened: false, subMenuOpen: 'USERS', currentOption: "MODIFICAR_USUARIO"}    
-    this.state = { isMenuOpened: true, subMenuOpen: 'BOOKS', currentOption: "LIBROS_PRESTAR"}    
+    this.state = { isMenuOpened: false, subMenuOpen: 'BOOKS', currentOption: "LIBROS_PRESTAR"}    
+    // this.state = { isMenuOpened: true, subMenuOpen: 'BOOKS', currentOption: "LIBROS_PRESTAR"}    
   }
 
   async componentDidMount(){
