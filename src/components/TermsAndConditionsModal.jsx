@@ -31,10 +31,9 @@ render(){
 			      </div>
 			      <div className="modal-body">
 			      <ul>
-			      <h5 className="modal-subtitle">Este proyecto se base en tres conductas bastante simples:</h5>
-			      	<li> 1. <strong>Cuida los libros:</strong> este proyecto es mas interesante en cuanto mas personas puedan acceder a los libros <strong>si dañas un libro DEBES entregar un ejemplar igual</strong> </li>
-			      	<li> 2. <strong>No robes los libros:</strong> de mas esta decir que no te robes los libros, este proyecto es por y para la comunidad asi que a quien afectas con eso es a las personas que estan a tu alrededor. <strong>Quien lee no roba, quien roba no lee.</strong></li>
-			      	<li> 3. <strong>Devuelve los libros a tiempo:</strong> al igual que tu tambien hay otras personas que desean leer el libro y estan esperando a que termines </li>
+			      	<li> 1. <strong>Préstamo de uso o Comodato:</strong> se hará entrega de un libro para su uso sin contraprestación alguna, con el compromiso de restituirlo en el tiempo estipulado y en las mismas condiciones que le fue entregado. </li>
+			      	<li> 2. <strong>Cuidado de los libros:</strong> el libro se entrega en excelentes condiciones físicas; por lo tanto, debe ser devuelto de la misma manera. De no ser así, el comodatario o quien usó el libro, deberá entregar un ejemplar igual al entregado. </li>
+			      	<li> 3. <strong>Hurto de libros:</strong> los libros deben entregarse en el tiempo estipulado del préstamo. De lo contrario, se iniciará denuncia ante autoridad competente. </li>
 			      </ul>
 			      </div>
 			      <div className="modal-footer">
